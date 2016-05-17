@@ -7,7 +7,7 @@ body {
 	height: 100%;
 }
 
-.logo {
+.bottom {
 	position: fixed;
 	bottom: 0px;
 	right: 0px;
@@ -38,13 +38,48 @@ body {
 
 .content {
 	position: fixed;
-	width: 70%;
-	height: 40vw;
+	width: 60vw;
+	height: 350px;
 	background-color: blue;
 	text-align: center;
-	margin: 80px;
-
-
+	margin: 75px;
 }
+
+a {
+	font-family: avenir;
+}
+ #hours {
+ 	position: fixed;
+ 	font-size: 12px;
+ 	bottom: 50px;
+ 	left: 25px;
+ }
+
+ #info {
+ 	position: fixed;
+ 	font-size: 8px;
+ 	bottom: 25px;
+ 	left: 25px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
