@@ -9,6 +9,10 @@ body {
 	height: 100%;
 }
 
+.logo {
+	font-weight: 500;
+}
+
 .bottom {
 	position: fixed;
 	bottom: 0px;
@@ -37,17 +41,18 @@ body {
 .two {
 	-webkit-transform: rotate(-90deg);
 	 transform: rotate(-90deg);
-	 bottom: 65.6px;
+	 bottom: 66.6px;
 	 right: -40px;
 }
 
 .content {
 	position: fixed;
-	width: 60vw;
+	width: 68vw;
 	height: 350px;
-	background-color: blue;
-	text-align: center;
+	font-size: 16px;
+	text-align: justify;
 	margin: 75px;
+	margin-top: 85px;
 }
 
 a {
@@ -70,7 +75,9 @@ a {
 
 
 @media screen and (max-width: 640px) {
-    body {
+    .logo {
+    	margin-right: -10px;
+    	margin-left: -10px;
     }
 }
 
