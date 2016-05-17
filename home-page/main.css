@@ -57,7 +57,7 @@ a {
  	position: fixed;
  	font-size: 12px;
  	bottom: 50px;
- 	left: 25px;
+ 	left: 20px;
  }
 
  #info {
@@ -65,13 +65,12 @@ a {
  	font-family: avenir;
  	font-size: 8px;
  	bottom: 25px;
- 	left: 25px;
+ 	left: 20px;
  }
 
 
 @media screen and (max-width: 640px) {
     body {
-        background-color: lightgreen;
     }
 }
 
