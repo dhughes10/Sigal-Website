@@ -50,7 +50,6 @@ body {
 	width: 68vw;
 	height: 350px;
 	font-size: 16px;
-	text-align: justify;
 	margin: 75px;
 	margin-top: 85px;
 }
@@ -77,6 +76,9 @@ a {
 @media screen and (max-width: 640px) {
     .logo {
     	margin-right: -10px;
+    	margin-left: -10px;
+    }
+    .content {
     	margin-left: -10px;
     }
 }
