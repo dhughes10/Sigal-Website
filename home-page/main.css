@@ -10,48 +10,34 @@ body {
 }
 
 .logo {
+	position: fixed;
 	font-weight: 500;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 25px;
+	width: 100px;
 }
 
 .bottom {
-	position: fixed;
 	bottom: 0px;
 	right: 0px;
 }
 
 .top {
-	position: fixed;
 	-webkit-transform: rotate(-180deg);
 	transform: rotate(-180deg);
 	left: 0px;
 	top: 0px;
 }
 
-.box {
-	position: absolute;
-	font-family: avenir;
-	text-align: right;
-	font-size: 230%;
-	margin-bottom: 5px;
-	margin-right: 10px;
-	bottom: 10px;
-	right: 45px;
-
-}
-.two {
-	-webkit-transform: rotate(-90deg);
-	 transform: rotate(-90deg);
-	 bottom: 66.6px;
-	 right: -40px;
-}
-
 .content {
 	position: fixed;
-	width: 68vw;
+	width: 55vw;
 	height: 350px;
 	font-size: 16px;
-	margin: 75px;
-	margin-top: 85px;
+	margin-left: 85px;
+	margin-top: 90px;
 }
 
 a {
@@ -74,12 +60,9 @@ a {
 
 
 @media screen and (max-width: 640px) {
-    .logo {
-    	margin-right: -10px;
-    	margin-left: -10px;
-    }
     .content {
     	margin-left: 65px;
+    	width: 68vw;
     }
 }
 
