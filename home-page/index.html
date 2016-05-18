@@ -9,7 +9,22 @@
 	<div class="container">
 		<image class="logo bottom" src="sigal-logo.png"></image>
 		<image class="logo top" src="sigal-logo.png"></image>
-		<a class="content">The Sigal Museum is Northampton County, Pennsylvania's leading institution of local history, and home to significant collections of pre-European settlement artifacts, decorative arts and textiles, farming implements and colonial furniture. The Museum opened in summer of 2010, offering its visitors interactive exhibits, self-guided and docent-led tours, special children's programs, and a lecture series on local and American history.</a>
+		<div class="menu">
+			<a class="menu-page" href="">VISIT</a>
+			<a class="menu-page" href="">EXHIBITS</a>
+			<a class="menu-page" href="">EVENTS</a>
+			<a class="menu-page" href="">LIBRARY</a>
+			<div class="mobileButton"></div>
+		</div>
+		<div class="mobileMenu">
+			<a class="mobileMenu-page" href="">VISIT</a><br>
+			<a class="mobileMenu-page" href="">EXHIBITS</a><br>
+			<a class="mobileMenu-page" href="">EVENTS</a><br>
+			<a class="mobileMenu-page" href="">LIBRARY</a><br>
+		</div>
+		<a class="content">
+			The Sigal Museum is Northampton County, Pennsylvania's leading institution of local history, and home to significant collections of pre-European settlement artifacts, decorative arts and textiles, farming implements and colonial furniture. The Museum opened in summer of 2010, offering its visitors interactive exhibits, self-guided and docent-led tours, special children's programs, and a lecture series on local and American history.
+		</a>
 		<a id="hours">
 			<b>Wed &#8211; Sat</b>
 			<br>10am &#8211; 4pm<br>
@@ -25,6 +40,11 @@
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 <script>
+$( ".mobileButton" ).click(function(){
+	$(".mobileMenu").toggle();
+	$(".container").css({'filter': 'invert(100)'});
+
+	 });
 
 </script>
 
