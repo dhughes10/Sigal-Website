@@ -112,14 +112,10 @@ a {
  	z-index: -10;
  }
 
- .backIMG {
- 	position: absolute;
- 	width: 75%;
- 	text-align: center;
- 	margin-top: 580px;
- 	margin-left: 50px;
- 	z-index: -1;
+  .backIMG {
+  	display: none;
  }
+
 
  .invert {
  	-webkit-filter: invert(1);
@@ -144,6 +140,15 @@ a {
     .mobileButton {
     	display: inline-block;
     }
+
+     .backIMG {
+    display: inherit;
+ 	position: absolute;
+ 	width: 100%;
+ 	text-align: center;
+ 	margin-top: 580px;
+ 	z-index: -1;
+ }
 
 }
 
