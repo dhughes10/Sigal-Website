@@ -162,7 +162,9 @@
 		</a>
 		<div id="info">342 Northampton Street | Easton, PA 18045 | 610-253-1222</div>
 		<div class="content">
-			<image class="slideIMG" src="./assets/sliderIMG1.jpg"></image>
+			<div class="slide-container">
+				<image class="slideIMG" src="./assets/sliderIMG1.jpg"></image>
+			</div>
 			<a class="about">
 					The Sigal Museum is Northampton County, Pennsylvania's leading institution of local history, and home to significant collections of pre-European settlement artifacts, decorative arts and textiles, farming implements and colonial furniture. The Museum opened in summer of 2010, offering its visitors interactive exhibits, self-guided and docent-led tours, special children's programs, and a lecture series on local and American history.
 			</a>
@@ -174,19 +176,22 @@
 		      	<a href="./assets/mobile-1.jpg">
 		      		<img src="./assets/mobile-1.jpg">
 		      	</a>
-		      	<br> Laser Etched Longboard
+		      	<p>	Lorem ipsum dolor sit amet, vix augue graece molestie id, te has stet nemore. Paulo nostro officiis eu nam, mei antiopam scriptorem te. Lucilius atomorum reprimique usu ex. In suscipit facilisi sadipscing mea.
+		      	</p>
 		      </div>
 		      <div class="column">
 		      	<a href="">
 		      		<img src="./assets/mobile-1.jpg">
 		      	</a>
-		      	<br> Screen Printing Wiki Book
+		      	<p>	Lorem ipsum dolor sit amet, vix augue graece molestie id, te has stet nemore. Paulo nostro officiis eu nam, mei antiopam scriptorem te. Lucilius atomorum reprimique usu ex. In suscipit facilisi sadipscing mea.
+		      	</p>
 		      </div>
 		      <div class="column">
 		      	<a href="">
 		      		<img src="./assets/mobile-1.jpg">
 		      	</a>
-		      	<br> Recipe Poster
+		      	<p>	Lorem ipsum dolor sit amet, vix augue graece molestie id, te has stet nemore. Paulo nostro officiis eu nam, mei antiopam scriptorem te. Lucilius atomorum reprimique usu ex. In suscipit facilisi sadipscing mea.
+		      	</p>
 		      </div>
 	    	</div>
 	    </div>
@@ -203,6 +208,39 @@ $( ".mobileButton" ).click(function(){
 	$(".container").toggleClass('invert');
 	$("body").toggleClass('background');
 	 });
+
+
+var image = [
+	'./assets/sliderIMG1.jpg',
+	'./assets/sliderIMG2.jpg',
+	'./assets/sliderIMG3.jpg',
+	];
+
+	var changePhoto = function() {
+		var url = image[Math.floor(Math.random() * image.length)];
+		$('.slideIMG').attr('src',url);
+		$('.slideIMG').fadeIn(0).delay( 5200 ).fadeOut(800).fadeIn(0).delay( 5200 ).fadeOut(800);
+		console.log("change photo");
+	}
+
+	changePhoto();
+	window.setInterval(changePhoto, 6000);
+
+var image2 = [
+	'./assets/mobile-1.jpg',
+	'./assets/mobile-2.jpg',
+	'./assets/mobile-3.jpg',
+	];
+
+	var changePhoto2 = function() {
+		var url = image2[Math.floor(Math.random() * image2.length)];
+		$('.mobile-IMG').attr('src',url);
+		$('.mobile-IMG').fadeOut(800).fadeIn(0).delay( 5200 ).fadeOut(800);
+		console.log("change photo");
+	}
+
+	changePhoto2();
+	window.setInterval(changePhoto2, 6000);
 
 </script>
 
