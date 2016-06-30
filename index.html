@@ -194,6 +194,11 @@
 		      	</p>
 		      </div>
 	    	</div>
+	    	<div class="donate">
+				<p style=padding-bottom:5px>Lorem ipsum dolor sit amet, vix augue graece molestie id, te has stet nemore. Paulo nostro officiis eu nam, mei antiopam scriptorem te.
+		      	</p>
+				<a href="https://sigalmuseum.org/" class="button">Donate</a>
+			</div>
 	    </div>
 </body>
 
@@ -219,7 +224,6 @@ var image = [
 	var changePhoto = function() {
 		var url = image[Math.floor(Math.random() * image.length)];
 		$('.slideIMG').attr('src',url);
-		$('.slideIMG').fadeIn(0).delay( 5200 ).fadeOut(800).fadeIn(0).delay( 5200 ).fadeOut(800);
 		console.log("change photo");
 	}
 
@@ -235,7 +239,6 @@ var image2 = [
 	var changePhoto2 = function() {
 		var url = image2[Math.floor(Math.random() * image2.length)];
 		$('.mobile-IMG').attr('src',url);
-		$('.mobile-IMG').fadeOut(800).fadeIn(0).delay( 5200 ).fadeOut(800);
 		console.log("change photo");
 	}
 
