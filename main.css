@@ -34,7 +34,7 @@ body {
 }
 
 .menu {
-	position: fixed;
+	position: absolute;
 	margin-right: 25px;
 	margin-top: 23px;
 	font-weight: 600;
@@ -63,7 +63,6 @@ body {
 }
 
 .mobileMenu {
-	position: fixed;
 	display: none;
 	text-align: center;
 	width: 100%;
@@ -199,8 +198,26 @@ p {
  	background-color: black;
  }
 
+/* // Sub Pages //*/
+
+ .pageTitle {
+ 	display: block;
+ 	width: 100%;
+ 	padding-left: 70px;
+ }
+
+ hr {
+ 	width: 80%;
+ 	background-color: black;
+ 	text-align: center;
+ }
+
 
 @media screen and (max-width: 760px) {
+
+	.menu {
+		position: fixed;
+	}
 
     .menu-page {
     	display: none;
@@ -212,6 +229,10 @@ p {
 
     #info {
     	position: absolute;
+    }
+
+    #header {
+    	display: none;
     }
 
     .slide-container {
@@ -281,6 +302,15 @@ p {
 	width: 80%;
 	left: 10%;
 	}
+
+	/* // Sub Pages //*/
+
+	 .pageTitle {
+	 	width: 100%;
+	 	text-align: center;
+	 	padding-left: 0px;
+	 	padding-top: 50px;
+	 }
 
 }
 
