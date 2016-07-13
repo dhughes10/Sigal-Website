@@ -174,7 +174,7 @@ p {
 	text-align: center;
 	display: inline-block;
 	width: 23%;
-	top: 94px;
+	top: 204px;
 	left: 68%;
 }
 
@@ -204,12 +204,6 @@ p {
  	display: block;
  	width: 100%;
  	padding-left: 70px;
- }
-
- hr {
- 	width: 80%;
- 	background-color: black;
- 	text-align: center;
  }
 
 
