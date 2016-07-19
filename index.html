@@ -178,7 +178,7 @@
 			      		<img src="./assets/homeIMG-select3.jpg">
 			      	</a>
 			      	<a id="title" href=""><h2>Visit</h2></a>
-			      	<p id="gridINFO">	Lorem ipsum dolor sit amet, vix augue graece molestie id, te has stet nemore. Paulo nostro officiis eu nam, mei antiopam scriptorem te. Lucilius atomorum reprimique usu ex. In suscipit facilisi sadipscing mea.
+			      	<p id="gridINFO">	The Sigal Museum of the Northampton County Historical and Genealogical Society welcomes visitors of all ages! With over 15,000 square feet of exhibits and three additional historic sites, we are a local and regional destination not to be missed.
 			      	</p>
 			      </div>
 			      <div class="column">
@@ -186,7 +186,7 @@
 			      		<img src="./assets/homeIMG-select2.jpg">
 			      	</a>
 			      	<a id="title" href=""><h2>Library</h2></a>
-			      	<p id="gridINFO">	Lorem ipsum dolor sit amet, vix augue graece molestie id, te has stet nemore. Paulo nostro officiis eu nam, mei antiopam scriptorem te. Lucilius atomorum reprimique usu ex. In suscipit facilisi sadipscing mea.
+			      	<p id="gridINFO">	The Jane S. Moyer library is home to a wealth of family, county, and state information crucial to our genealogical and community researchers.
 			      	</p>
 			      </div>
 			      <div class="column">
@@ -194,17 +194,24 @@
 			      		<img src="./assets/homeIMG-select1.jpg">
 			      	</a>
 			      	<a id="title" href=""><h2>Events</h2></a>
-			      	<p id="gridINFO">	Lorem ipsum dolor sit amet, vix augue graece molestie id, te has stet nemore. Paulo nostro officiis eu nam, mei antiopam scriptorem te. Lucilius atomorum reprimique usu ex. In suscipit facilisi sadipscing mea.
+			      	<p id="gridINFO">	The Sigal museum hosts and participates in various events, including city-wide happenings, all throughout the year. See our calendar of events for upcoming events.
+
 			      	</p>
 			      </div>
 		    	</div>
 	    	</div>
 	    	<div class="donate">
-				<p id="gridINFO" style=padding-bottom:5px>Lorem ipsum dolor sit amet, vix augue graece molestie id, te has stet nemore. Paulo nostro officiis eu nam, mei antiopam scriptorem te.
+	    		<h2>Donations</h2>
+				<p id="donate" style=paddin:5px>Lorem ipsum dolor sit amet, vix augue graece molestie id, te has stet nemore. Paulo nostro officiis eu nam, mei antiopam.
 		      	</p>
-				<a href="https://sigalmuseum.org/" class="button">Donate</a>
+				<a href="https://sigalmuseum.org/" class="button">Contribute</a>
 			</div>
 	    </div>
+	    <div id="largeTXT">
+				<h2>Memberships</h2>
+				<div id="member">We are always seeking new members (who receive year round free access to the museum) and volunteers in a variety of areas! Are you ready to get involved?</div><br>
+				<a href="https://sigalmuseum.org/" class="button">Sign Up</a>
+		</div>
 </body>
 
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
@@ -215,6 +222,7 @@ $( ".mobileButton" ).click(function(){
 	$(".content").toggle();
 	$("#info").toggle();
 	$("#hours").toggle();
+	$("#largeTXT").toggle();
 	$(".container").toggleClass('invert');
 	$("body").toggleClass('background');
 	 });
