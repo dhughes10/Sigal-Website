@@ -155,7 +155,6 @@ body {
 }
 
 .flex-container {
-	text-align: center;
 	width: 100%;
 	height: auto;
 	display: -webkit-flex;
@@ -244,7 +243,6 @@ a:hover {
 	padding-left: 28%;
 }
 
-
 /* .invert {
  	-webkit-filter: invert(1);
     filter: invert(1);
@@ -317,7 +315,6 @@ a:hover {
     	margin: 0px;
     	padding: 0px;
     	width: 100%;
-    	height: 3350px;
     }
 
     .intro {
@@ -415,6 +412,10 @@ a:hover {
 
     #careers {
     	margin-left: 40px;
+    }
+
+    #largeTXT {
+    	padding-top: 250px;
     }
 
 }
