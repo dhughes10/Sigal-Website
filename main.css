@@ -3,9 +3,6 @@ body {
 	width: 100%;
 	overflow-x: hidden;
 	font-family: 'Open Sans', sans-serif;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-	}
 }
 
 .container {
