@@ -212,9 +212,9 @@ a:hover {
 #donate {
 	padding-bottom: 10px;
 	font-weight: 600;
-	margin-left: 30px;
+	margin-left: 15px;
 	text-align: left;
-	width: 84%;
+	width: 95%;
 }
 
 .button {
@@ -278,6 +278,7 @@ a:hover {
 
   #careers {
   	padding-bottom: 50px;
+  	margin-left: 3%;
   }
 
 
