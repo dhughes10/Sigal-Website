@@ -10,6 +10,61 @@
   <meta name="author" content="Dylan Hughes">
   <title>Support</title>
 </head>
+<style>
+	.outer-container {
+		padding-top: 20px;
+		margin-left: 1.6%;
+	}
+	.column {
+		width: 350px;
+		padding-left: 40px;
+	}
+
+	.sup1 {
+		text-decoration: none;
+		text-align: left;
+		padding-left: 30px;
+
+	}
+	.sup1:hover {
+		text-decoration: none;
+	}
+	#tab {
+		color: white;
+		width: 100%;
+		height: 220px;
+		padding-left: 20px;
+		padding-top: .05px;
+		background-color: black;
+		opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	}
+
+	#tab:hover {
+			opacity: .5;
+
+	}
+
+
+	@media screen and (max-width: 760px) {
+
+	.outer-container{
+		padding-left: 20px;
+		margin-left: 0;
+	}
+	.column {
+		width: 300px;
+		padding-left: 20px;
+	}
+	.about {
+		margin-left: 60px;
+	}
+	#tab {
+		height: 120px;
+	}
+	}
+</style>
 <body>
 	<div class="container">
 		<svg class="logo top" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -160,35 +215,46 @@
 			<div class="pageTitle">
 				<h1>Support</h1>
 			</div>
-			<div class="about">
-					The Sigal Museum is Northampton County, Pennsylvania's leading institution of local history, and home to significant collections of pre-European settlement artifacts, decorative arts and textiles, farming implements and colonial furniture. The Museum opened in summer of 2010, offering its visitors interactive exhibits, self-guided and docent-led tours, special children's programs, and a lecture series on local and American history.
-			</div>
 			<div class="flex-container">
 		      <div class="column">
-		      	<a href="./assets/mobile-1.jpg">
-		      		<img src="../assets/homeIMG-select3.jpg">
-		      	</a>
-		      	<a id="title" href=""><h2>Visit</h2></a>
-		      	<p>	Lorem ipsum dolor sit amet, vix augue graece molestie id, te has stet nemore. Paulo nostro officiis eu nam, mei antiopam scriptorem te. Lucilius atomorum reprimique usu ex. In suscipit facilisi sadipscing mea.
-		      	</p>
+		        <a class="sup1" href="../support/donation/index.html">
+		        	<div id="tab">
+			        	<h2>Make A Donation</h2>
+			        </div>
+			    </a>
+		        <a class="sup1" href="../support/member/index.html">
+		        	<div id="tab">
+			        	<h2>Become A Member</h2>
+			        </div>
+			    </a>
 		      </div>
 		      <div class="column">
-		      	<a href="">
-		      		<img src="../assets/homeIMG-select2.jpg">
-		      	</a>
-		      	<a id="title" href=""><h2>Library</h2></a>
-		      	<p>	Lorem ipsum dolor sit amet, vix augue graece molestie id, te has stet nemore. Paulo nostro officiis eu nam, mei antiopam scriptorem te. Lucilius atomorum reprimique usu ex. In suscipit facilisi sadipscing mea.
-		      	</p>
+		      	<a class="sup1" href="../support/legacy-society/index.html">
+		        	<div id="tab">
+			        	<h2>Legacy Society</h2>
+			        </div>
+			    </a>
+		      	<a class="sup1" href="../support/gifts/index.html">
+		        	<div id="tab">
+			        	<h2>Special Gifts of Recognition</h2>
+			        </div>
+			    </a>
 		      </div>
 		      <div class="column">
-		      	<a href="">
-		      		<img src="../assets/homeIMG-select1.jpg">
-		      	</a>
-		      	<a id="title" href=""><h2>Events</h2></a>
-		      	<p>	Lorem ipsum dolor sit amet, vix augue graece molestie id, te has stet nemore. Paulo nostro officiis eu nam, mei antiopam scriptorem te. Lucilius atomorum reprimique usu ex. In suscipit facilisi sadipscing mea.
-		      	</p>
+		      	<a class="sup1" href="../support/sponsor/index.html">
+		        	<div id="tab">
+			        	<h2>Sponsor & Adopt an Artifact</h2>
+			        </div>
+			    </a>
+		      	<a class="sup1" href="../support/corporate-giving/index.html">
+		        	<div id="tab">
+			        	<h2>Corporate Giving</h2>
+			        </div>
+			    </a>
 		      </div>
 	    	</div>
+			<div class="about" style=padding-bottom:150px>
+			
 	    </div>
 </body>
 

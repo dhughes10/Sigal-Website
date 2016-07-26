@@ -3,6 +3,9 @@ body {
 	width: 100%;
 	overflow-x: hidden;
 	font-family: 'Open Sans', sans-serif;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	}
 }
 
 .container {
@@ -146,7 +149,6 @@ body {
 
 .outer-container {
 	width: 100%;
-	text-align: center;
 	position: relative;
 	text-align: center;
 	height: auto;
@@ -155,6 +157,7 @@ body {
 }
 
 .flex-container {
+	text-align: center;
 	width: 100%;
 	height: auto;
 	display: -webkit-flex;
