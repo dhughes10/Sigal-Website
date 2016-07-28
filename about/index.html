@@ -10,6 +10,41 @@
   <meta name="author" content="Dylan Hughes">
   <title>About</title>
 </head>
+<style>
+#colum {
+	padding-right: 30px;
+}
+
+#colum2 {
+	padding-right: 50px;
+}
+
+.trustee {
+ 	display:flex;
+	display: -webkit-flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: 100%;
+	padding-top: 30px;
+	text-align: center;
+}
+
+
+@media screen and (max-width: 760px) {
+	.trustee {
+		padding-left: 115px;
+		width: 80%;
+	}
+
+	#colum {
+	padding: 0px;
+}
+	#colum2 {
+		padding-right: 0px;
+	}
+}
+
+</style>
 <body>
 	<div class="container">
 		<svg class="logo top" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -226,7 +261,7 @@
 		</div>
 		<div style=padding-bottom:50px>
 			<div class="staff">
-				<div style="padding-right:60px">
+				<div id="colum">
 					<h3>Andrew Zellers-Frederick</h3>
 					<b>Executive Director</b><br>
 					<a href="AndrewZF@northamptonctymuseum.org">AndrewZF@northamptonctymuseum.org</a>
@@ -245,7 +280,7 @@
 					<a href="mphifer@rcn.com">mphifer@rcn.com</a>
 					<hr>
 				</div>
-				<div style="padding-right:60px">
+				<div id="colum">
 					<h3>Brittany Schrum Merriam</h3>
 					<b>Senior Curator</b><br>
 					<a href="Brittany@northamptonctymuseum.org">Brittany@northamptonctymuseum.org</a><br>
@@ -263,10 +298,10 @@
 					<a href="khc1861@yahoo.com">khc1861@yahoo.com</a>
 					<hr>
 				</div>
-				<div>
+				<div id="colum">
 					<h3>Deb Patterson</h3>
 					<b>Bookkeeper</b><br>
-					<a href="DebPatterson@northamptonctymuseum.org">DebPatterson@northamptonctymuseum.org</a><br>
+					<a style=font-size:13px href="DebPatterson@northamptonctymuseum.org">DebPatterson@northamptonctymuseum.org</a><br>
 					<hr>
 					<h3>Alexandria Wismer</h3>
 					<b>Museum Assistant</b><br>
@@ -285,11 +320,11 @@
 			</div>
 		</div>
 		<div class="pageTitle">
-			<h1 style=padding-right:20px>Board of Trustees</h1>
+			<h1>Board of Trustees</h1>
 		</div>
-		<div style=padding-bottom:50px>
-			<div class="staff trust">
-				<div style="padding-right:60px">
+		<div>
+			<div class="trustee">
+				<div id="colum">
 					<h4>L Anderson Daub</h4>
 					<i>President</i>
 					<hr>
@@ -307,7 +342,7 @@
 					<h4>J. Michael Dowd</h4>
 					<hr>
 				</div>
-				<div style="padding-right:60px">
+				<div id="colum2">
 					<h4>Antonia Grifo</h4>
 					<hr>
 					<h4>Steve Jensen</h4>
@@ -320,7 +355,7 @@
 					<hr>
 					<h4>Christian F. Martin, IV</h4>
 					<hr>
-				</div>
+				</div id="colum">
 				<div>
 					<h4>Alan B. McFall, Esq.</h4>
 					<hr>
@@ -338,7 +373,7 @@
 		<div class="pageTitle">
 			<h1>Careers</h1>
 		</div>
-		<div id="careers">Please check our <a href="">careers page</a> for any open positions.
+		<div id="careers" style=padding-bottom:150px>Please check our <a href="">careers page</a> for any open positions.
 		<div><br>
 </body>
 

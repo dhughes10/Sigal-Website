@@ -167,6 +167,14 @@ body {
 	width: 400px;
 	padding: 5px;
 	align-item: center;
+	text-align: center;
+}
+
+.column2 {
+	width: 40%;
+	padding: 5px;
+	align-item: center;
+	text-align: center;
 }
 
 img {
@@ -204,7 +212,7 @@ a:hover {
 	position: absolute;
 	text-align: center;
 	display: inline-block;
-	width: 23%;
+	width: 24%;
 	top: 94px;
 	left: 72%;
 }
@@ -232,15 +240,19 @@ a:hover {
 	display: inline-block;
 	text-align: center;
 	width: 100%;
-	padding-top: 50px;
+	padding-top: 0px;
 	padding-bottom: 200px;
 }
 
 #member {
 	font-weight: 600;
 	text-align: left;
-	width: 45%;
-	padding-left: 28%;
+	width: 85%;
+	padding-left: 10%;
+}
+
+.bottomButtons {
+	padding-left: 115px;
 }
 
 /* .invert {
@@ -396,19 +408,11 @@ a:hover {
 		width: 80%;
 	}
 
-		#member {
-		width: 75%;
-		padding-left: 55px;
-	}
 
 	.staff {
-    	width: 70%;
+    	width: 100%;
     	margin-left: 40px;
     	padding-top: 15px;
-    }
-
-    .trust {
-    	margin-left: 65px;
     }
 
     #careers {
@@ -418,6 +422,21 @@ a:hover {
     #largeTXT {
     	padding-top: 250px;
     }
+    .column2 {
+	width: 100%;
+	padding-bottom: 100px;
+	align-item: center;
+	text-align: center;
+}
+
+	.bottomButtons {
+		padding-left: 0px;
+		margin-top: 100px;
+	}
+	#member {
+	width: 79%;
+	padding-left: 55px;
+}
 
 }
 
