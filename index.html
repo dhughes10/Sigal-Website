@@ -228,6 +228,9 @@
 			      </div>
 		    	</div>
 	    	</div>
+	    <div id="footer">
+	    		<a href=""><img id="MapGuide" src="./assets/nat-geo.png"></a>
+	    </div>
 </body>
 
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
@@ -239,6 +242,9 @@ $( ".mobileButton" ).click(function(){
 	$("#info").toggle();
 	$("#hours").toggle();
 	$("#largeTXT").toggle();
+	$(".column2").toggle();
+	$("#footer").toggle();
+	$(".outer-container").toggle();
 	$(".container").toggleClass('invert');
 	$("body").toggleClass('background');
 	 });
