@@ -143,7 +143,14 @@
 			<a class="menu-page" href="./support/index.html">SUPPORT</a>
 			<a class="menu-page" href="./about/index.html">ABOUT</a>
 			<a class="menu-page" href="./store/index.html">STORE</a>
-			<div class="mobileButton"></div>
+			<div id="bar"></div>
+			<svg class="mobileButton" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewBox="0 0 182 134.5" style="enable-background:new 0 0 182 134.5;" xml:space="preserve">
+				<rect x="12" y="16.8" width="158" height="12.4"/>
+				<rect x="12" y="61" width="158" height="12.4"/>
+				<rect x="12" y="105.2" width="158" height="12.4"/>
+			</svg>
+			
 		</div>
 		<div class="mobileMenu">
 			<a class="mobileMenu-page" href="index.html">HOME</a><br>
@@ -180,7 +187,7 @@
 			      		<img src="./assets/homeIMG-select3.jpg">
 			      	</a>
 			      	<a id="title" href="./visit/index.html"><h2>Visit</h2></a>
-			      	<p id="gridINFO">	The Sigal Museum of the Northampton County Historical and Genealogical Society welcomes visitors of all ages! With over 15,000 square feet of exhibits and three additional historic sites, we are a local and regional destination not to be missed.
+			      	<p id="gridINFO">	The Sigal Museum of the Northampton County Historical and Genealogical Society welcomes visitors of all ages! With over 15,000 square feet of exhibits and three additional historic sites.
 			      	</p>
 			      </div>
 			      <div class="column">
@@ -201,6 +208,7 @@
 			      </div>
 		    	</div>
 	    	</div>
+	    	<div id="bar2"></div>
 	    	<div class="donate">
 	    		<h2>Donations</h2>
 				<p id="donate" style=padding:5px>Make a fully tax-deductible donation to NCHGS. All proceeds support our exhibits and educational programs.
@@ -218,7 +226,7 @@
 				<div class="flex-container"style=padding-bottom:200px>
 			      <div class="column2">
 						<h2>Memberships</h2>
-						<div id="member">We are accepting new members (who receive year-round FREE access to the museum and select programs)! Join the NCHGS family and enjoy plenty of perks at any level of membership.</div><br>
+						<div id="member">We are accepting new members! Join the NCHGS family and enjoy plenty of perks at any level of membership.</div><br>
 						<a href="./support/member/index.html" class="button">Sign Up</a>
 			      </div>
 			      <div class="column2">
@@ -229,7 +237,13 @@
 		    	</div>
 	    	</div>
 	    <div id="footer">
+	    		<div class="social-icons">
+	    			<a href="https://www.facebook.com/Sigal-Museum-101742406546406/"><img id="icons" src="./assets/facebook.png"></a>
+			      	<a href="https://twitter.com/SigalMuseum"><img id="icons" src="./assets/twitter.png"></a>
+			      	<a href="https://www.instagram.com/sigalmuseum/"><img id="icons" src="./assets/instagram.png"></a>
+	    		</div>
 	    		<a href=""><img id="MapGuide" src="./assets/nat-geo.png"></a>
+	    		<p style=font-size:10px>Sigal Museum&#169; 2016</p>
 	    </div>
 </body>
 
@@ -261,6 +275,8 @@ var image = [
 	'./assets/slider-desktop-8.jpg',
 	'./assets/slider-desktop-9.jpg',
 	'./assets/slider-desktop-10.jpg',
+	'./assets/slider-desktop-11.jpg',
+	'./assets/slider-desktop-12.jpg',
 	];
 
 	var changePhoto = function() {
@@ -291,7 +307,7 @@ var image2 = [
 	}
 
 	changePhoto2();
-	window.setInterval(changePhoto2, 6000);
+	window.setInterval(changePhoto2, 4000);
 
 </script>
 

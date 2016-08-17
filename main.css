@@ -36,13 +36,33 @@ body {
 .menu {
 	position: absolute;
 	margin-right: 25px;
-	margin-top: 23px;
+	margin-top: 25px;
 	font-weight: 600;
 	top: 0px;
 	right: 0px;
 	z-index: 1000;
+/*	background-color: black;*/
+/*	color: white;*/
+/*	padding: 10px;*/
+	padding-right: 25px;
+	padding-top: 10px;
+/*	padding-bottom: 10px;*/
 }
 
+#bar {
+	width: 150%;
+	height: 5px;
+	margin: 10px;
+	background-color: black;
+}
+
+#bar2 {
+	width: 87%;
+	height: 5px;
+	margin-top: 80px;
+	margin-left: 40px;
+	background-color: black;
+}
 .menu-page {
 	text-decoration: none;
 	color: inherit;
@@ -57,11 +77,9 @@ body {
 
 .mobileButton {
 	display: none;
-	width: 20px;
-	height: 20px;
-	background-color: black;
+	text-align: center;
+	width: 30px;
 }
-
 .mobileMenu {
 	position: fixed;
 	display: none;
@@ -102,7 +120,7 @@ body {
  .content {
  	display: inline-block;
  	position: relative;
- 	margin-top: 90px;
+ 	margin-top: 110px;
  	margin-left: 100px;
  	z-index: 1;
  }
@@ -115,7 +133,7 @@ body {
 
 .intro {
 	display: inline-block;
-	width: 55vw;
+	width: 53vw;
 	font-size: 16px;
 	padding-top: 30px;
 	margin-left: 3%;
@@ -247,12 +265,12 @@ a:hover {
 #member {
 	font-weight: 600;
 	text-align: left;
-	width: 85%;
-	padding-left: 10%;
+	width: 58%;
+	padding-left: 23%;
 }
 
 .bottomButtons {
-	padding-left: 115px;
+	padding-left: 10%;
 }
 
 /* .invert {
@@ -298,11 +316,16 @@ a:hover {
   	height: 100px;
   	text-align: center;
   	align-item: center;
-  	padding-bottom: 50px;
+  	padding-bottom: 90px;
   }
 
   #MapGuide {
-  	width: 18%;
+  	width: 12%;
+  }
+
+  #icons {
+  	width: 25px;
+  	padding: 10px;
   }
 
 
@@ -310,6 +333,17 @@ a:hover {
 
 	.menu {
 		position: fixed;
+		padding: 0px;
+	}
+
+	#bar {
+		display: none;
+		margin: none;
+	}
+
+	#bar2 {
+		display: none;
+		margin: none;
 	}
 
     .menu-page {
@@ -398,7 +432,7 @@ a:hover {
 	display: inline-block;
 	text-align: center;
 	display: inline-block;
-	width: 80%;
+	width: 78%;
 	left: 10%;
 	}
 
@@ -446,8 +480,8 @@ a:hover {
 		margin-top: 100px;
 	}
 	#member {
-	width: 79%;
-	padding-left: 55px;
+	width: 73%;
+	padding-left: 60px;
 }
 
 	  #MapGuide {
