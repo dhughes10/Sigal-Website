@@ -1,8 +1,15 @@
 body {
 	margin: 0px;
-	width: 100%;
-	overflow-x: hidden;
+	max-width: 100%;
+    overflow-x: hidden;
+    -webkit-max-width: 100%;
+    -webkit-overflow-x: hidden;
 	font-family: 'Open Sans', sans-serif;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
 }
 
 .container {
@@ -11,12 +18,11 @@ body {
 
 .logo {
 	position: fixed;
-	font-weight: 500;
-	margin-bottom: 12px;
-	padding-top: 15px;
-	padding-left: 15px;
-	padding-right: 15px;
-	width: 100px;
+	margin-bottom: 25px;
+	padding-top: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	width: 70px;
 	z-index: 1000;
 }
 
@@ -30,30 +36,32 @@ body {
 	transform: rotate(-180deg);
 	left: 0px;
 	top: 0px;
-	padding-bottom: 10px;
+	padding-bottom: 25px;
+}
+
+.top-logo {
+	width: 120px;
+	padding-top: 60px;
+	padding-left: 60px;
 }
 
 .menu {
 	position: absolute;
-	margin-right: 25px;
-	margin-top: 25px;
+	margin-right: 50px;
+	margin-top: 40px;
 	font-weight: 600;
 	top: 0px;
 	right: 0px;
 	z-index: 1000;
-/*	background-color: black;*/
-/*	color: white;*/
-/*	padding: 10px;*/
 	padding-top: 10px;
-/*	padding-bottom: 10px;*/
 }
 
-#bar {
-	width: 150%;
-	height: 5px;
+/*#bar {
+	width: 102%;
+	height: 10px;
 	margin: 10px;
 	background-color: black;
-}
+}*/
 
 #bar2 {
 	width: 87%;
@@ -65,6 +73,8 @@ body {
 .menu-page {
 	text-decoration: none;
 	color: inherit;
+	font-size: 15px;
+	letter-spacing: .2px;
 	padding-left: 20px;
 
 }
@@ -82,10 +92,11 @@ body {
 .mobileMenu {
 	position: fixed;
 	display: none;
-	text-align: center;
+	text-align: left;
 	width: 100%;
 	height: 100%;
-	margin-top: 90px;
+	padding-left: 60px;
+	margin-top: 30px;
 	z-index: 11;
 }
 
@@ -116,18 +127,22 @@ body {
  	z-index: 1000;
  }
 
- .content {
+.content {
+	width: 100%;
  	display: inline-block;
  	position: relative;
- 	margin-top: 110px;
- 	margin-left: 100px;
+ 	margin-top: 20px;
+ 	margin-left: 20px;
  	z-index: 1;
  }
 
+ .slide-container {
+   	width: 56%;
+   	margin-left: 3%;
+  }
+
  .slideIMG {
- 	display: inline-block;
- 	width: 63%;
- 	margin-left: 3%;
+ 	width: 100%;
  }
 
 .intro {
@@ -162,11 +177,12 @@ body {
 }
 
 .outer-container {
-	width: 100%;
 	position: relative;
 	text-align: center;
 	height: auto;
+	margin: 0 auto;
 	padding-top: 100px;
+	padding-left: 40px;
 
 }
 
@@ -174,6 +190,7 @@ body {
 	text-align: center;
 	width: 100%;
 	height: auto;
+	margin: 0 auto;
 	display: -webkit-flex;
 	display: flex;
 	-webkit-flex-wrap: wrap;
@@ -181,22 +198,24 @@ body {
 }
 
 .column {
-	width: 400px;
-	padding: 5px;
+	width: 345px;
+	padding: 40px;
 	align-item: center;
 	text-align: center;
 }
 
 .column2 {
-	width: 40%;
-	padding: 5px;
+	width: 300px;
+	padding: 20px;
 	align-item: center;
-	text-align: center;
 }
 
-img {
-  max-width: 80%;
-  padding-top: 5px;
+#square {
+  max-width: 100%;
+  	-moz-backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+  
 }
 
 #title {
@@ -219,27 +238,24 @@ a:hover {
 }
 
 #gridINFO {
-	width: 84%;
-	margin-left: 40px;
+	width: 100%;
 	text-align: left;
 	padding-bottom: 40px;
+
 }
 
-.donate {
+.welcome {
 	position: absolute;
-	text-align: center;
 	display: inline-block;
 	width: 24%;
-	top: 94px;
-	left: 72%;
+	top: 44px;
+	left: 67%;
 }
 
-#donate {
-	padding-bottom: 10px;
-	font-weight: 600;
-	margin-left: 15px;
-	text-align: left;
-	width: 95%;
+#welcome {
+	font-size: 55px;
+	line-height: 60px;
+	margin-bottom: -5px;
 }
 
 .button {
@@ -262,10 +278,9 @@ a:hover {
 }
 
 #member {
-	font-weight: 600;
+	font-weight: 400;
+	font-size: 15px;
 	text-align: left;
-	width: 58%;
-	padding-left: 23%;
 }
 
 .bottomButtons {
@@ -307,7 +322,7 @@ a:hover {
 
   #careers {
   	padding-bottom: 50px;
-  	margin-left: 3%;
+  	margin-left: 2%;
   }
 
   #footer {
@@ -341,6 +356,8 @@ a:hover {
 	.menu {
 		position: fixed;
 		padding: 0px;
+		margin-right: 24px;
+
 	}
 
 	#bar {
@@ -359,10 +376,12 @@ a:hover {
 
     #hours {
     	position: absolute;
+    	top: 440px;
     }
 
     #info {
     	position: absolute;
+    	top: 522px;
     }
 
     #header {
@@ -385,13 +404,13 @@ a:hover {
 
     .intro {
     	width: 70%;
-    	margin-left: 75px;
-    	padding-top: 75px;
+    	margin-left: 65px;
+    	padding-top: 25px;
     }
 
     .about {
     	width: 70%;
-    	margin-left: 75px;
+    	margin-left: 60px;
     	padding-top: 15px;
     }
 
@@ -430,15 +449,16 @@ a:hover {
  	}
 
  	.column {
-		width: 300px;
+		width: 275px;
 		
 	}
 
-	.donate {
+	.welcome {
 	position: relative;
 	display: inline-block;
 	text-align: center;
 	display: inline-block;
+	padding-top: 120px;
 	width: 82%;
 	left: 10%;
 	}
@@ -458,7 +478,7 @@ a:hover {
 	}
 
 		#gridINFO {
-		width: 80%;
+		width: 100%;
 	}
 
 
@@ -469,6 +489,7 @@ a:hover {
     }
 
     #careers {
+    	width: 75%;
     	margin-left: 40px;
     }
 
@@ -486,9 +507,16 @@ a:hover {
 		padding-left: 0px;
 		margin-top: 100px;
 	}
+	
+	#donate {
+		margin-left: 8px;
+		text-align: center;
+		width: 91%;
+}
+
 	#member {
 	width: 73%;
-	padding-left: 60px;
+	padding-left: 48px;
 }
 
 	  #MapGuide {
@@ -496,8 +524,6 @@ a:hover {
   }
 
 }
-
-
 
 
 

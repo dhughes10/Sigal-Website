@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic' rel='stylesheet' type='text/css'>
+</head>
+<style>
+
+.logo {
+	position: fixed;
+	margin-bottom: 25px;
+	padding-top: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	width: 70px;
+	z-index: 1000;
+}
+
+.bottom {
+	bottom: 0px;
+	right: 0px;
+}
+
+.top {
+	-webkit-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+	left: 0px;
+	top: 0px;
+	padding-bottom: 25px;
+}
+
+.top-logo {
+	width: 120px;
+	padding-top: 60px;
+	padding-left: 60px;
+}
+
+.menu {
+	position: absolute;
+	margin-right: 50px;
+	margin-top: 40px;
+	font-weight: 600;
+	top: 0px;
+	right: 0px;
+	z-index: 1000;
+	padding-top: 10px;
+}
+
+#bar2 {
+	width: 87%;
+	height: 5px;
+	margin-top: 80px;
+	margin-left: 40px;
+	background-color: black;
+}
+.menu-page {
+	text-decoration: none;
+	color: inherit;
+	font-size: 15px;
+	letter-spacing: .2px;
+	padding-left: 20px;
+
+}
+
+.menu-page:hover {
+	text-decoration: underline;
+	transition: all .8s ease;
+}
+
+.mobileButton {
+	display: none;
+	text-align: center;
+	width: 30px;
+}
+.mobileMenu {
+	position: fixed;
+	display: none;
+	text-align: left;
+	width: 100%;
+	height: 100%;
+	padding-left: 60px;
+	margin-top: 50px;
+	z-index: 11;
+}
+
+.mobileMenu-page {
+	display: inline-block;
+	padding-top: 10px;
+	font-size: 20px;
+	font-weight: 600;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+	@media screen and (max-width: 760px) {
+	
+	.menu {
+		position: fixed;
+		padding: 0px;
+	}
+
+	#bar {
+		display: none;
+		margin: none;
+	}
+
+	#bar2 {
+		display: none;
+		margin: none;
+	}
+
+    .menu-page {
+    	display: none;
+    }
+	}
+
+</style>
+<body>
+	<div class="container">
+
+		<svg class="logo top" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+		<polygon points="400.1,400.4 0,400.4 0,333.4 333.1,333.4 333.1,0 400.1,0 "/>
+		</svg>
+
+		<svg class="logo bottom" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+		<polygon points="400.1,400.4 0,400.4 0,333.4 333.1,333.4 333.1,0 400.1,0 "/>
+		</svg>
+		<image class="top-logo" src="./assets/sigal-logo1.png"></image>
+		
+		<div class="menu">
+			<a class="menu-page" href="index.html">Home</a>
+			<a class="menu-page" href="./visit/index.html">Visit</a>
+			<a class="menu-page" href="./exhibits/index.html">Exhibits</a>
+			<a class="menu-page" href="./events/index.html">Events</a>
+			<a class="menu-page" href="./library/index.html">Library</a>
+			<a class="menu-page" href="./support/index.html">Support</a>
+			<a class="menu-page" href="./about/index.html">About</a>
+			<a class="menu-page" href="./store/index.html">Store</a>
+			<div id="bar"></div>
+			<svg class="mobileButton" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewBox="0 0 182 134.5" style="enable-background:new 0 0 182 134.5;" xml:space="preserve">
+				<rect x="12" y="16.8" width="158" height="12.4"/>
+				<rect x="12" y="61" width="158" height="12.4"/>
+				<rect x="12" y="105.2" width="158" height="12.4"/>
+			</svg>
+			
+		</div>
+		<div class="mobileMenu">
+			<a class="mobileMenu-page" href="index.html">Home</a><br>
+			<a class="mobileMenu-page" href="./visit/index.html">Visit</a><br>
+			<a class="mobileMenu-page" href="./exhibits/index.html">Exhibits</a><br>
+			<a class="mobileMenu-page" href="./events/index.html">Events</a><br>
+			<a class="mobileMenu-page" href="./library/index.html">Library</a><br>
+			<a class="mobileMenu-page" href="./support/index.html">Support</a><br>
+			<a class="mobileMenu-page" href="./about/index.html">About</a><br>
+			<a class="mobileMenu-page" href="./store/index.html">Store</a><br>
+		</div>
+</body>
+
+</html>
