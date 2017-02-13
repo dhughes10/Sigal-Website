@@ -1,10 +1,88 @@
+@font-face {
+  font-family: 'Sailec Black';
+  src:  url('./webfonts/32F680_0_0.woff2') format('woff2'),
+        url('./webfonts/32F680_0_0.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sailec Black Italic';
+  src:  url('./webfonts/32F680_1_0.woff2') format('woff2'),
+        url('./webfonts/32F680_1_0.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sailec Black 2';
+  src:  url('./webfonts/32F680_2_0.woff2') format('woff2'),
+        url('./webfonts/32F680_2_0.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sailec Black 3';
+  src:  url('./webfonts/32F680_3_0.woff2') format('woff2'),
+        url('./webfonts/32F680_3_0.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sailec Black 4';
+  src:  url('./webfonts/32F680_4_0.woff2') format('woff2'),
+        url('./webfonts/32F680_4_0.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sailec Black 5';
+  src:  url('./webfonts/32F680_5_0.woff2') format('woff2'),
+        url('./webfonts/32F680_5_0.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sailec Black 6';
+  src:  url('./webfonts/32F680_6_0.woff2') format('woff2'),
+        url('./webfonts/32F680_6_0.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sailec Black 6';
+  src:  url('./webfonts/32F680_6_0.woff2') format('woff2'),
+        url('./webfonts/32F680_6_0.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sailec Black 7';
+  src:  url('./webfonts/32F680_7_0.woff2') format('woff2'),
+        url('./webfonts/32F680_7_0.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sailec Black 8';
+  src:  url('./webfonts/32F680_8_0.woff2') format('woff2'),
+        url('./webfonts/32F680_8_0.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sailec Black 9';
+  src:  url('./webfonts/32F680_9_0.woff2') format('woff2'),
+        url('./webfonts/32F680_9_0.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sailec Black A';
+  src:  url('./webfonts/32F680_A_0.woff2') format('woff2'),
+        url('./webfonts/32F680_A_0.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sailec Black B';
+  src:  url('./webfonts/32F680_B_0.woff2') format('woff2'),
+        url('./webfonts/32F680_B_0.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sailec Black C';
+  src:  url('./webfonts/32F680_C_0.woff2') format('woff2'),
+        url('./webfonts/32F680_C_0.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sailec Black D';
+  src:  url('./webfonts/32F680_D_0.woff2') format('woff2'),
+        url('./webfonts/32F680_D_0.woff') format('woff');
+}
+
+
 body {
 	margin: 0px;
 	max-width: 100%;
     overflow-x: hidden;
     -webkit-max-width: 100%;
     -webkit-overflow-x: hidden;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Sailec Black A', sans-serif;
+	line-height: 20px;
 }
 
 iframe {
@@ -13,7 +91,21 @@ iframe {
 }
 
 .container {
+	width: 100%;
+	text-align: center;
+	align-item: center;
 	z-index: 0;
+}
+
+.content {
+	width: 100%;
+	display: inline;
+ 	position: relative;
+	text-align: center;
+	align-item: center;
+	padding-top: 80px;
+	padding-left: 20px;
+	z-index: 1;
 }
 
 .logo {
@@ -40,7 +132,8 @@ iframe {
 }
 
 .top-logo {
-	width: 120px;
+	display: block;
+	width: 140px;
 	padding-top: 60px;
 	padding-left: 60px;
 }
@@ -49,7 +142,7 @@ iframe {
 	position: absolute;
 	margin-right: 50px;
 	margin-top: 40px;
-	font-weight: 600;
+	font-family: 'Sailec Black 8', sans-serif;
 	top: 0px;
 	right: 0px;
 	z-index: 1000;
@@ -63,11 +156,17 @@ iframe {
 	background-color: black;
 }*/
 
+#line {
+	display: inline;
+	width: 1200px;
+	height: 2px;
+	background-color: black;
+}
+
 #bar2 {
-	width: 87%;
-	height: 5px;
-	margin-top: 80px;
-	margin-left: 40px;
+	width: 300px;
+	height: 2px;
+	margin-top: 50px;
 	background-color: black;
 }
 .menu-page {
@@ -127,18 +226,12 @@ iframe {
  	z-index: 1000;
  }
 
-.content {
-	width: 100%;
- 	display: inline-block;
- 	position: relative;
- 	margin-top: 20px;
- 	margin-left: 20px;
- 	z-index: 1;
- }
-
  .slide-container {
-   	width: 56%;
-   	margin-left: 3%;
+ 	display: block;
+ 	width: 55%;
+ 	padding-top: 30px;
+ 	padding-left: 60px;
+ 	text-align: left;
   }
 
  .slideIMG {
@@ -146,11 +239,9 @@ iframe {
  }
 
 .intro {
-	display: inline-block;
-	width: 53vw;
+	text-align: left;
 	font-size: 16px;
 	padding-top: 30px;
-	margin-left: 3%;
 }
 
 .about {
@@ -158,7 +249,9 @@ iframe {
 	width: 55vw;
 	font-size: 16px;
 	padding-top: 30px;
-	margin-left: 3%;
+	padding-left: 60px;
+	padding-bottom: 40px;
+	text-align: left;
 }
 
 .fill {
@@ -173,16 +266,18 @@ iframe {
 	width: 100%;
 	margin-left: 70px;
 	text-align: left;
+	font-family: 'Sailec Black 8', sans-serif;
 	padding-bottom: 10px;
 }
 
 .outer-container {
-	position: relative;
 	text-align: center;
+	display: table;
 	height: auto;
 	margin: 0 auto;
+	width: 100%;
+	align-item: center;
 	padding-top: 100px;
-	padding-left: 40px;
 
 }
 
@@ -195,23 +290,26 @@ iframe {
 	display: flex;
 	-webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .column {
 	width: 345px;
-	padding: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
 	align-item: center;
 	text-align: center;
 }
 
 .column2 {
 	width: 300px;
-	padding: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
 	align-item: center;
 }
 
 #square {
-  max-width: 100%;
+  max-width: 90%;
   	-moz-backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -220,6 +318,7 @@ iframe {
 
 #title {
 	color: inherit;
+	font-family: 'Sailec Black 8', sans-serif;
 	text-align: center;
 	text-decoration: none;
 	padding: 0px;
@@ -239,7 +338,7 @@ a:hover {
 
 #gridINFO {
 	width: 100%;
-	text-align: left;
+	text-align: center;
 	padding-bottom: 40px;
 
 }
@@ -248,13 +347,15 @@ a:hover {
 	position: absolute;
 	display: inline-block;
 	width: 24%;
-	top: 44px;
+	top: 224px;
 	left: 67%;
 }
 
 #welcome {
 	font-size: 55px;
+	font-family: 'Sailec Black', sans-serif;
 	line-height: 60px;
+	letter-spacing: 1px;
 	margin-bottom: -5px;
 }
 
@@ -280,11 +381,11 @@ a:hover {
 #member {
 	font-weight: 400;
 	font-size: 15px;
-	text-align: left;
+	text-align: center;
 }
 
 .bottomButtons {
-	padding-left: 10%;
+
 }
 
 /* .invert {
@@ -301,7 +402,6 @@ a:hover {
  .pageTitle {
  	display: block;
  	width: 100%;
- 	margin-left: 70px;
  }
 
  .staff {
@@ -325,12 +425,18 @@ a:hover {
   	margin-left: 2%;
   }
 
-  #footer {
+  #center {
+  	width: 100%;
+  	text-align: center;
+  	align-item: center;
+  }
+
+   #footer {
   	width: 100%;
   	height: 100px;
   	text-align: center;
   	align-item: center;
-  	padding-bottom: 90px;
+  	padding-bottom: 40px;
   }
 
   #MapGuide {
@@ -348,6 +454,10 @@ a:hover {
  	width: 100%;
  	margin-top: 50px;
  	margin-left: 40px;
+  }
+
+  h3 {
+  	font-family: 'Sailec Black 8', sans-serif;
   }
 
 
@@ -509,7 +619,7 @@ a:hover {
 	}
 	
 	#donate {
-		margin-left: 8px;
+		margin-left: 0px;
 		text-align: center;
 		width: 100%;
 }
