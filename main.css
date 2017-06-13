@@ -74,9 +74,14 @@
         url('./webfonts/32F680_D_0.woff') format('woff');
 }
 
+a {text-decoration:none;
+
+}
+
 
 body {
 	margin: 0px;
+
 	max-width: 100%;
     overflow-x: hidden;
     -webkit-max-width: 100%;
@@ -92,8 +97,8 @@ iframe {
 
 .container {
 	width: 100%;
-	text-align: center;
-	align-item: center;
+	text-align: left;
+	align-item: left;
 	z-index: 0;
 }
 
@@ -132,10 +137,26 @@ iframe {
 }
 
 .top-logo {
-	display: block;
+	color: #141414;
+	fill: currentColor;
+	display: inline-block;
 	width: 140px;
-	padding-top: 60px;
-	padding-left: 60px;
+	margin-top: 60px;
+	margin-left: 60px;	
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+	z-index: 2200;
+}
+
+
+.top-logo:hover {
+	opacity: .18;
+}
+
+#home-link {
+	position: relative;
+    display: inline-block; 
+
 }
 
 .menu {
@@ -158,7 +179,7 @@ iframe {
 
 #line {
 	display: inline;
-	width: 1200px;
+	width: 76%;
 	height: 2px;
 	background-color: black;
 }
@@ -230,7 +251,7 @@ iframe {
  	display: block;
  	width: 55%;
  	padding-top: 30px;
- 	padding-left: 60px;
+ 	padding-left: 64px;
  	text-align: left;
   }
 
@@ -309,12 +330,18 @@ iframe {
 }
 
 #square {
-  max-width: 90%;
-  	-moz-backface-visibility: hidden;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-  
+	max-width: 90%;
+	-moz-backface-visibility:hidden;
+	-webkit-backface-visibility:hidden;
+	backface-visibility:hidden;
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
 }
+
+	#square:hover {
+			opacity: .7;
+
+	}
 
 #title {
 	color: inherit;
@@ -368,6 +395,14 @@ a:hover {
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
+    -webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+.button:hover {
+	background-color: #f5f5f5;
+	color: black;
+
 }
 #largeTXT {
 	position: relative;
@@ -422,6 +457,7 @@ a:hover {
 
   #careers {
   	padding-bottom: 50px;
+  	padding-top: 20px;
   	margin-left: 2%;
   }
 
@@ -446,6 +482,12 @@ a:hover {
   #icons {
   	width: 25px;
   	padding: 10px;
+  	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+  }
+
+  #icons:hover {
+  		opacity: .3;
   }
 
   #headerIMG {
