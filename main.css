@@ -50,7 +50,7 @@
         url('./webfonts/32F680_4_0.woff') format('woff'),
         url('./webfonts/32F680_4_0.eot'),
         url('./webfonts/32F680_4_0.ttf') format('truetype');
-        font-weight: bolder;
+        font-weight: 900;
 		font-style: italic;
 }
 
@@ -61,7 +61,7 @@
         url('./webfonts/32F680_5_0.woff') format('woff'),
         url('./webfonts/32F680_5_0.eot'),
         url('./webfonts/32F680_5_0.ttf') format('truetype');
-        font-weight: bolder;
+        font-weight: 900;
 		font-style: normal;
 }
 
@@ -155,6 +155,21 @@
 
 a {text-decoration:none;}
 
+h1 {
+	font-family: 'Sailec Black', sans-serif;
+}
+
+h2 {
+	font-family: 'Sailec Black', sans-serif;
+}
+
+h3 {
+	font-family: 'Sailec Black', sans-serif;
+}
+
+h4 {
+	font-family: 'Sailec Black A', sans-serif;
+}
 
 body {
 	margin: 0px;
@@ -163,10 +178,16 @@ body {
     overflow-x: hidden;
     -webkit-max-width: 100%;
     -webkit-overflow-x: hidden;
-	font-family: 'Sailec Black A', sans-serif;
+    font-family: 'Sailec Black A', sans-serif;
 	line-height: 20px;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
+}
+p {
+	font-family: 'Sailec Black A', sans-serif;
+}
+b {
+	font-family: 'Sailec Black', sans-serif;
 }
 
 iframe {
@@ -442,7 +463,6 @@ a.svg:after {
 
 #title {
 	color: inherit;
-	font-family: 'Sailec Black 8', sans-serif;
 	text-align: center;
 	text-decoration: none;
 	padding: 0px;
@@ -472,14 +492,13 @@ a:hover {
 	position: absolute;
 	display: inline-block;
 	width: 24%;
-	top: 14.5vw;
+	top: 18.5vw;
 	left: 68%;
 }
 
 #welcome {
 	font-size: 55px;
-	font-family: 'Sailec Black', sans-serif;
-	font-weight: 1000;
+	font-family: 'Sailec Black 5', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	line-height: 60px;
 	letter-spacing: 1px;
@@ -548,7 +567,7 @@ a:hover {
 /* // Sub Pages //*/
 
  .pageTitle {
- 	display: block;
+ 	display: block
  	font-family: 'Sailec Black 8', sans-serif;
  	width: 100%;
  }
@@ -612,9 +631,6 @@ a:hover {
  	margin-left: 40px;
   }
 
-  h3 {
-  	font-family: 'Sailec Black 8', sans-serif;
-  }
 
 
 @media screen and (max-width: 760px) {
