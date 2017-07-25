@@ -11,6 +11,40 @@
   <title>Library</title>
 </head>
 <style>
+	.outer-container {
+		padding-top: 20px;
+		padding-bottom: 0px;
+		padding-left: 35px;
+		margin-left: 0px;
+		margin-bottom: 0px;
+	}
+	.bottomButtons {
+		margin-top: 20px;
+	}
+	
+	.flex-container {
+		text-align: left;
+		padding-left: 0px;
+		padding-bottom: 0px;
+		margin:0px;
+	}
+
+	.column {
+		width: 360px;
+		padding: 20px;
+		text-align: left;
+	}
+	
+	.fees {
+		text-align: center;
+		padding-left: 80px;
+
+	}
+	
+	.bottomButtons {
+		padding-bottom:0px;
+		margin-bottome:0px;
+	}
 	.flex-container {
 		text-align: left;
 		padding-left: 10px;
@@ -22,12 +56,8 @@
 		text-align: left;
 	}
 	#tab {
-		color: white;
-		width: 350px;
-		height: 60px;
-		padding-left: 20px;
-		padding-top: 10px;
-		background-color: black;
+		font-family: 'Sailec Black 8', sans-serif;
+		font-size: 28px;
 	}
 	#library {
 		width: 350px;
@@ -37,21 +67,30 @@
 	.pageTitle{
 		font-size: 13px;
 	}
+	.outer-container {
+		padding-top: 0px;
+	}
 	.flex-container {
 		width: 80%;
+		padding-left: 0px;
+	}
+	.research {
 		padding-left: 45px;
+	}
 
+	.fees {
+		padding-left: 18%;
 	}
 
 	.about {
-		margin-left: 65px;
+		margin-left: 0px;
 	}
 	.column {
 		width: 270px;
+		padding-top: 0px;
 	}
 	#tab {
 		width: 90%;
-		height: 50px;
 	}
 	#library {
 		width: 270px;
@@ -136,43 +175,60 @@
 		</div>
 		<div class="content">
 			<div class="pageTitle">
-				<h1>Library & Genealogy</h1>
+				<h1>Jane S. Moyer Library</h1>
 			</div>
-			<div class="about">
-				<h2 id="tab">Hours</h2>
+			
+			<div id="center">
+	     		<svg id="line">
+					<rect height="2"/>
+			    </svg>
+			 </div>
+
+			<div class="outer-container bottomButtons">
+				<div class="flex-container">
+			      <div class="column2" style=text-align:left>
+						<h2 id="tab">Hours</h2>
 				<p id="library">
-					<b>Wednesday &#8211; Saturday:</b>
+					<b>Wednesday &#8211; Friday:</b>
 					<br>10am &#8211; 2:30pm<br><br>
 
 					Appointments strongly recommended to ensure all materials are available to you when you visit.<br><br>
 					Please call the library at: <b>610-253-1222</b><br><br>
-				</p>
-				<div id="bar2"></div><br><br>
-				<h2>In Memory of Jane Moyer</h2>
+				</p>	
+			      </div>
+			      <div class="column2 fees">
+						<h2>Research Fees</h2>
+						<div id="member"> Pay your research fees online via PayPal</div><br>
+						<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U75DWK4SP2A7U" class="button">Pay Here</a>
+			      </div>
+		    	</div>
+	    	</div>
+
+			<div class="about">
+				<h3>In Memory of Jane Moyer</h3>
 				<p>Our beloved volunteer librarian, Jane Moyer, passed away on April 9, 2015.  During her 103 years, Jane touched thousands of lives in her work as a librarian here and at the Easton Area Public Library.  Her love of knowledge, history, and education made her an authority in and of this community, and her passion and drive will be remembered and much missed.</p>
 				<p>During a celebration of Jane's 103rd, Jane said that we at the Society were her family- weren't we lucky to be touched by such a strong woman of substance.</p>
-				<div id="bar2"></div><br><br>
-				<h2>Northampton County Local and Genealogical Research</h2>
+				<br>
+				<h3>Northampton County Local and Genealogical Research</h3>
 				<p>+ 5,000 books</p>
 				<p>+ 10,000 manuscript items</p>
 				<p>+ 6,000 surname files</p>
 				<p>+ 2,000 history vertical files</p>
 				<p>+ 120,000 photographs</p>
 				<p>+ Thousands of maps, drawings, and architectural plans detailing the history and families of Northampton County, PA.</p>
-				<div id="bar2"></div><br><br>
-				<h2>Searching the NCHGS Library Collection</h2>
+				<br>
+				<h3>Searching the NCHGS Library Collection</h3>
 				<p>Thanks to the generosity of the Easton Area Public Library, much of the NCHGS Library Collection is online.  We continue to add to our Family Genealogical files and Archives, so please check back as we update our holdings.</p>
 				<p>To search the NCHGS catalogue online, access the database by clicking this link <a href="http://webpac.lvlspa.org/">http://webpac.lvlspa.org/</a> .  From the dropdown menu entitled "View Entire Collection" select Easton Northampton HGS. Searching can be done by keyword, title, author, and subject and the search results will only show NCHGS holdings.</p>
 			</div>
-			<div class="flex-container">
-				<div id="bar2"></div><br><br><br><br>
+			<div class="flex-container research">
 		      <div class="column">
-		        <h2>On-site Research</h2></a>
+		        <h3>On-site Research</h3></a>
 		      	<p>	Research time is $10 for up to 2 hours. NCHGS Member receive free research passes annually. It is recommended that you schedule a research appointment a few days ahead of your desired date of visit.
 		      	</p>
 		      </div>
 		      <div class="column">
-		      	<h2>Research Requests</h2></a>
+		      	<h3>Research Requests</h3></a>
 		      	<p>	Since our holdings are so extensive, we may locate a considerable amount of information on an individual or family. When submitting your request, please:
 		      	</p>
 		      	<p>+ Be specific in the information you are seeking. For example, do you want birth, baptism, marriage, and death records? A good technique is to list the questions you want answered.</p>
@@ -180,7 +236,7 @@
 		      	<p>+ Tell us how you know. List resources already searched so the we enhance, not duplicate, your efforts.</p>
 		      </div>
 		      <div class="column">
-		      	<h2>Genealogical Search by Mail</h2></a>
+		      	<h3>Genealogical Search by Mail</h3></a>
 		      	<p>	Please send a letter outlining your request and include a check for $40 payable to NCHGS. Explain your request simply and concisely. Please print all information, and for vital information including surnames, use CAPITAL letters. Always print your full name and address on each piece of correspondence.
 		      	</p>
 		      	<p>Note: Each surname is a separate search. Submit full requests and payment for each separate search requested.</p>

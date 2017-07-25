@@ -1,82 +1,159 @@
+
+/*************** BOLD */
 @font-face {
   font-family: 'Sailec Black';
   src:  url('./webfonts/32F680_0_0.woff2') format('woff2'),
-        url('./webfonts/32F680_0_0.woff') format('woff');
+        url('./webfonts/32F680_0_0.woff') format('woff'),
+        url('./webfonts/32F680_0_0.eot'),
+        url('./webfonts/32F680_0_0.ttf') format('truetype');
+        font-weight: bold;
+		font-style: normal;
 }
+
+/*************** BOLD ITALIC */
 @font-face {
   font-family: 'Sailec Black Italic';
   src:  url('./webfonts/32F680_1_0.woff2') format('woff2'),
-        url('./webfonts/32F680_1_0.woff') format('woff');
+        url('./webfonts/32F680_1_0.woff') format('woff'),
+        url('./webfonts/32F680_1_0.eot'),
+        url('./webfonts/32F680_1_0.ttf') format('truetype');
+        font-weight: bold;
+		font-style: italic;
 }
+
+/*************** HAIRLINE ITALIC */
 @font-face {
   font-family: 'Sailec Black 2';
   src:  url('./webfonts/32F680_2_0.woff2') format('woff2'),
-        url('./webfonts/32F680_2_0.woff') format('woff');
+        url('./webfonts/32F680_2_0.woff') format('woff'),
+        url('./webfonts/32F680_2_0.eot'),
+        url('./webfonts/32F680_2_0.ttf') format('truetype');
+        font-weight: 100;
+		font-style: italic;
 }
+
+/*************** HAIRLINE */
 @font-face {
   font-family: 'Sailec Black 3';
   src:  url('./webfonts/32F680_3_0.woff2') format('woff2'),
-        url('./webfonts/32F680_3_0.woff') format('woff');
+        url('./webfonts/32F680_3_0.woff') format('woff'),
+        url('./webfonts/32F680_3_0.eot'),
+        url('./webfonts/32F680_3_0.ttf') format('truetype');
+        font-weight: 100;
+		font-style: normal;
 }
+
+/*************** BLACK ITALIC */
 @font-face {
   font-family: 'Sailec Black 4';
   src:  url('./webfonts/32F680_4_0.woff2') format('woff2'),
-        url('./webfonts/32F680_4_0.woff') format('woff');
+        url('./webfonts/32F680_4_0.woff') format('woff'),
+        url('./webfonts/32F680_4_0.eot'),
+        url('./webfonts/32F680_4_0.ttf') format('truetype');
+        font-weight: bolder;
+		font-style: italic;
 }
+
+/*************** BLACK */
 @font-face {
   font-family: 'Sailec Black 5';
   src:  url('./webfonts/32F680_5_0.woff2') format('woff2'),
-        url('./webfonts/32F680_5_0.woff') format('woff');
+        url('./webfonts/32F680_5_0.woff') format('woff'),
+        url('./webfonts/32F680_5_0.eot'),
+        url('./webfonts/32F680_5_0.ttf') format('truetype');
+        font-weight: bolder;
+		font-style: normal;
 }
+
+/*************** LIGHT */
 @font-face {
   font-family: 'Sailec Black 6';
   src:  url('./webfonts/32F680_6_0.woff2') format('woff2'),
-        url('./webfonts/32F680_6_0.woff') format('woff');
+        url('./webfonts/32F680_6_0.woff') format('woff'),
+        url('./webfonts/32F680_6_0.eot'),
+        url('./webfonts/32F680_6_0.ttf') format('truetype');
+        font-weight: lighter;
+		font-style: normal;
 }
-@font-face {
-  font-family: 'Sailec Black 6';
-  src:  url('./webfonts/32F680_6_0.woff2') format('woff2'),
-        url('./webfonts/32F680_6_0.woff') format('woff');
-}
+
+/*************** LIGHT ITALIC */
 @font-face {
   font-family: 'Sailec Black 7';
   src:  url('./webfonts/32F680_7_0.woff2') format('woff2'),
-        url('./webfonts/32F680_7_0.woff') format('woff');
+        url('./webfonts/32F680_7_0.woff') format('woff'),
+        url('./webfonts/32F680_7_0.eot'),
+        url('./webfonts/32F680_7_0.ttf') format('truetype');
+        font-weight: lighter;
+		font-style: italic;
 }
+
+/*************** MEDIUM */
 @font-face {
   font-family: 'Sailec Black 8';
   src:  url('./webfonts/32F680_8_0.woff2') format('woff2'),
-        url('./webfonts/32F680_8_0.woff') format('woff');
+        url('./webfonts/32F680_8_0.woff') format('woff'),
+        url('./webfonts/32F680_8_0.eot'),
+        url('./webfonts/32F680_8_0.ttf') format('truetype');
+        font-weight: 550;
+		font-style: normal;
 }
+
+/*************** MEDIUM ITALIC */
 @font-face {
   font-family: 'Sailec Black 9';
   src:  url('./webfonts/32F680_9_0.woff2') format('woff2'),
-        url('./webfonts/32F680_9_0.woff') format('woff');
+        url('./webfonts/32F680_9_0.woff') format('woff'),
+        url('./webfonts/32F680_9_0.eot'),
+        url('./webfonts/32F680_9_0.ttf') format('truetype');
+        font-weight: 550;
+		font-style: italic;
 }
+
+/*************** REGULAR */
 @font-face {
   font-family: 'Sailec Black A';
   src:  url('./webfonts/32F680_A_0.woff2') format('woff2'),
-        url('./webfonts/32F680_A_0.woff') format('woff');
+        url('./webfonts/32F680_A_0.woff') format('woff'),
+        url('./webfonts/32F680_A_0.eot'),
+        url('./webfonts/32F680_A_0.ttf') format('truetype');
+        font-weight: normal;
+		font-style: normal;
 }
+
+/*************** REGULAR ITALIC */
 @font-face {
   font-family: 'Sailec Black B';
   src:  url('./webfonts/32F680_B_0.woff2') format('woff2'),
-        url('./webfonts/32F680_B_0.woff') format('woff');
+        url('./webfonts/32F680_B_0.woff') format('woff'),
+        url('./webfonts/32F680_B_0.eot'),
+        url('./webfonts/32F680_B_0.ttf') format('truetype');
+        font-weight: normal;
+		font-style: italic;
 }
+
+/*************** THIN */
 @font-face {
   font-family: 'Sailec Black C';
   src:  url('./webfonts/32F680_C_0.woff2') format('woff2'),
-        url('./webfonts/32F680_C_0.woff') format('woff');
+        url('./webfonts/32F680_C_0.woff') format('woff'),
+        url('./webfonts/32F680_C_0.eot'),
+        url('./webfonts/32F680_C_0.ttf') format('truetype');
+        font-weight: 200;
+		font-style: normal;
 }
+
+/*************** THIN ITALIC */
 @font-face {
   font-family: 'Sailec Black D';
   src:  url('./webfonts/32F680_D_0.woff2') format('woff2'),
-        url('./webfonts/32F680_D_0.woff') format('woff');
+        url('./webfonts/32F680_D_0.woff') format('woff'),
+        url('./webfonts/32F680_D_0.eot'),
+        url('./webfonts/32F680_D_0.ttf') format('truetype');
+        font-weight: 200;
+		font-style: italic;
 }
 
-a {text-decoration:none;
-
-}
+a {text-decoration:none;}
 
 
 body {
@@ -88,6 +165,8 @@ body {
     -webkit-overflow-x: hidden;
 	font-family: 'Sailec Black A', sans-serif;
 	line-height: 20px;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
 }
 
 iframe {
@@ -100,6 +179,8 @@ iframe {
 	text-align: left;
 	align-item: left;
 	z-index: 0;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
 }
 
 .content {
@@ -111,6 +192,8 @@ iframe {
 	padding-top: 80px;
 	padding-left: 20px;
 	z-index: 1;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
 }
 
 .logo {
@@ -175,6 +258,8 @@ a.svg:after {
 	right: 0px;
 	z-index: 1000;
 	padding-top: 10px;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-font-smoothing: antialiased;
 }
 
 /*#bar {
@@ -256,7 +341,7 @@ a.svg:after {
 
  .slide-container {
  	display: block;
- 	width: 55%;
+ 	width: 56%;
  	padding-top: 30px;
  	padding-left: 64px;
  	text-align: left;
@@ -276,9 +361,9 @@ a.svg:after {
 
 .about {
 	display: inline-block;
-	width: 55vw;
+	width: 46vw;
 	font-size: 16px;
-	padding-top: 30px;
+	padding-top: 40px;
 	padding-left: 60px;
 	padding-bottom: 40px;
 	text-align: left;
@@ -297,7 +382,10 @@ a.svg:after {
 	margin-left: 70px;
 	text-align: left;
 	font-family: 'Sailec Black 8', sans-serif;
+	font-weight: bold;
 	padding-bottom: 10px;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
 }
 
 .outer-container {
@@ -375,6 +463,7 @@ a:hover {
 #gridINFO {
 	width: 100%;
 	text-align: center;
+	font-size: 14px;
 	padding-bottom: 40px;
 
 }
@@ -384,15 +473,30 @@ a:hover {
 	display: inline-block;
 	width: 24%;
 	top: 14.5vw;
-	left: 67%;
+	left: 68%;
 }
 
 #welcome {
 	font-size: 55px;
 	font-family: 'Sailec Black', sans-serif;
+	font-weight: 1000;
+	-webkit-font-smoothing: antialiased;
 	line-height: 60px;
 	letter-spacing: 1px;
 	margin-bottom: -5px;
+}
+
+#title-container {
+	text-align: center;
+	width: 100%;
+}
+
+#title-center {
+	display: inline-block;
+	width: 65%;
+	font-size: 35px;
+	line-height: 35px;
+	font-family: 'Sailec Black', sans-serif;
 }
 
 .button {
@@ -445,6 +549,7 @@ a:hover {
 
  .pageTitle {
  	display: block;
+ 	font-family: 'Sailec Black 8', sans-serif;
  	width: 100%;
  }
 
@@ -569,11 +674,9 @@ a:hover {
     	padding-top: 15px;
     }
 
-/*    .about {
+    .about {
     	width: 70%;
-    	margin-left: 0px;
-    	padding-top: 5px;
-    }*/
+    }
 
      .fill {
 	    display:flex;
@@ -638,6 +741,10 @@ a:hover {
 	 .gridTitle {
 		margin-left: 0px;
 		text-align: center;
+	}
+
+	#title-center {
+		width: 85%;
 	}
 
 		#gridINFO {
