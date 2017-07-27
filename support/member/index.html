@@ -12,9 +12,10 @@
 </head>
 <style>
 	.outer-container {
-		padding-top: 20px;
+		padding-top: 40px;
 		margin-left: 1.6%;
 	}
+
 	.column {
 		width: 350px;
 		padding-left: 40px;
@@ -57,32 +58,54 @@
 		width: 30%;
 	}
 
+	.nar-container {
+		width: 100%;
+		text-align: center;
+	}
+	.nar1 {
+		display: inline-block;
+		width: 40%;
+	}
 
 	@media screen and (max-width: 760px) {
 
-		#sign-up {
-		display: inline-block;
-		width: 80%;
+	.bottomButtons {
+		padding-top: 0px;
+		margin: 0px;
 	}
+
 
 	.about {
 		text-align: left;
 	}
 
 	.outer-container{
-		padding-left: 20px;
+		padding-top: 20px;
+		padding-left: 0px;
 		margin-left: 0;
 	}
+	.column2 {
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+
 	.column {
 		width: 300px;
-		padding-left: 20px;
+		padding-left: 0px;
 	}
 	.about {
-		margin-left: 60px;
+		margin-left: 0px;
 	}
 	#tab {
 		height: 120px;
 	}
+	.nar1 {
+		width: 75%;
+	}
+	.nar-container {
+		margin-bottom: 40px;
+	}
+
 	}
 </style>
 <body>
@@ -165,12 +188,43 @@
 			<div class="pageTitle">
 				<h1>Memberships</h1><br>
 			</div>
-			<div class="sign-up">
-						<h3 id="sign-up"> Become a member by completing the Member Form.</h3><br>
-						<a href="../../assets/memberform.pub" class="button">Sign Up</a>
-				</div><br><br>
-				<div id="bar2"></div>
+
+			<div id="center">
+	     		<svg id="line">
+					<rect width="1200" height="2"/>
+			    </svg>
+	    	</div>
+
+
+			<div class="outer-container bottomButtons">
+				<div class="flex-container"style=padding-bottom:30px>
+			      <div class="column2">
+						<h2>New Memberships</h2>
+						<div id="member">Become a member by completing the Member Form.</div><br>
+						<a href="../../assets/memberform.pdf" class="button">Sign Up</a>
+			      </div>
+			      <div class="column2">
+						<h2>Member Dues</h2>
+						<div id="member">Pay your member dues online via PayPal.</div><br>
+						<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U75DWK4SP2A7U" class="button">Pay Here</a>
+			      </div>
+		    	</div>
+	    	</div>
+
+	    	<div id="center">
+	    		<div class="nar-container">
+		     		<p class="nar1">
+					By signing up for a Friend level membership or higher earn another membership to <a href="https://narmassociation.org/">NARM</a> which grants people access to over 800 more museums nationally. This is one of the biggest membership benefits the museum has to offer. The NCHGS is a proud NARM member.<br>
+					</p>
+				</div>
+	    	</div>
+
+
 			<div class="about" style=padding-bottom:50px>
+				<h2>
+					Membership Levels
+				</h2><br>
+
 				<h2>
 					Historian
 				</h2> 
@@ -187,7 +241,7 @@
 					+ Unlimited FREE Research passes<br>
 					+ 10% discount on purchases<br>
 				</p>
-				<div id="bar2"></div><br><br>
+				<br>
 				<h2>
 					Friend
 				</h2> 
@@ -197,7 +251,7 @@
 				<p>
 					+ 4 Free Single-Visit Museum Admission Guest Passes
 				</p>
-				<div id="bar2"></div><br><br>
+				<br>
 				<h2>
 					Patron
 				</h2> 
@@ -208,7 +262,7 @@
 					+ Sigal Museum Admission that also includes 3 guests per visit<br>
 					+ Invitations to Opening Nights
 				</p>
-				<div id="bar2"></div><br><br>
+				<br>
 				<h2>
 					Benefactor
 				</h2> 
@@ -219,7 +273,7 @@
 					+ Invitations to VIP receptions<br>
 					+ 5 additional Free single visit Sigal Museum admission guest passes
 				</p>
-				<div id="bar2"></div><br><br>
+				<br>
 				<h2>
 					Director's Circle
 				</h2> 
@@ -230,7 +284,7 @@
 					+ Private curatorial tour for up to 10 accompanying guests<br>
 					+ One reserved use of Sigal Museum Community Room, including free admission to the museum
 				</p>
-				<div id="bar2"></div><br><br>
+				<br>
 				<h2>
 					Founding Member
 				</h2> 
@@ -240,7 +294,7 @@
 				<p>
 					+ Your day for friends and family (free admission for all your guests) during regularly scheduled day during which Sigal Museum is open to the public
 				</p>
-				<div id="bar2"></div><br><br>
+				<br>
 				<h2>
 					President's Circle
 				</h2> 
@@ -250,12 +304,6 @@
 				<p>
 					+ Your Day at the Sigal Museum will be open free of charge to either your invited guests only OR to the public as well. If you choose to sponsor a free public day at the Sigal Museum, we will include museum promotion, and your sponsorship will be prominently noted in all promotional materials.
 				</p>
-				<div id="bar2"></div><br><br>
-			</div>
-			<div class="sign-up" style=padding-bottom:150px>
-						<h3 id="sign-up"> Become a member by completing the Member Form.</h3><br>
-						<a href="../../assets/memberform.pub" class="button">Sign Up</a>
-				</div><br><br><br>
 	    </div>
 </body>
 

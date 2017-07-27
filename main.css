@@ -571,6 +571,7 @@ a:hover {
  	display: block
  	font-family: 'Sailec Black 8', sans-serif;
  	width: 100%;
+ 	line-height: 0px;
  }
 
  .staff {
