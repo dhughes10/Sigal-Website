@@ -797,7 +797,8 @@ a:hover {
 
 	.bottomButtons {
 		padding-left: 0px;
-		margin-top: 80px;
+		margin-top: 30px;
+		background-color: red;
 	}
 	
 	#donate {
