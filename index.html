@@ -17,36 +17,46 @@
 	padding-top: 60px;
 	padding-left: 0px;
 	padding-right: 0px;
+	margin: 0;
 }
 
 .flex-container {
+	margin: 0;
+	padding: 0;
 }
 
 .column {
-
-	padding-left: 30px;
+	display: inline;
+	text-align: center;
+	margin-left: 25px;
 	padding-right: 0px;
 }
 
 #title-center {
 	margin-top: 125px;
 }
+
+#gridINFO {
+	width: 98%;
+}
+
 	@media screen and (max-width: 760px) {
 	
 			.outer-container {
 			width: 100%;
 			padding-left: 0px;
 			}
+
 			.column {
 			width: 275px;
 			padding-bottom: 30px;
+			margin-left: 0;
+			padding-left: 0px;
+			padding-right: 0px;
 			}
-	}
-
-		.column {
-
-	padding-left: 0px;
-	padding-right: 0px;
+			#gridINFO {
+			width: 100%;
+}
 }
 </style>
 <body>
@@ -138,7 +148,7 @@
 		
 	<div id="center">
 			<div class="slide-container">
-				<image class="slideIMG" src="./assets/sliderIMG1.jpg"></image>
+				<image class="slideIMG" src=""></image>
 			</div>
 				<div class="intro">
 					The Sigal Museum is Northampton County, Pennsylvania's leading institution of local history, and home to significant collections of pre-European settlement artifacts, decorative arts and textiles, farming implements and colonial furniture. The museum opened in the summer of 2010, offering its visitors interactive exhibits, self-guided and docent-led tours, special children's programs, and a lecture series on local and American history.
@@ -146,8 +156,8 @@
 			
 
 			<div class="welcome">
-	    		<div id="welcome">History Is Here.</div>
-				<p>Enjoy the past and look to the future.</p>
+	    		<div id="welcome">What’s Your Story?</div>
+				<p id="tagline">History &nbsp; Art &nbsp; Culture</p>
 				<a href="./visit/index.html" class="button">Visit</a>
 			</div>
 
@@ -155,14 +165,14 @@
     			<image class="mobile-IMG" src="./assets/mobile-1.jpg"></image>
 			</div>
 
-			<h1 id="title-center">A frame of history and community.</h1>
+			<h1 id="title-center">American history made in Northampton County</h1>
 
 			<div class="outer-container">
 					<div class="flex-container">
 				      <div class="column">
 				      	<a href="./visit/index.html"><img id="square" src="./assets/homeIMG-select3.jpg"></a>
 				      	<a id="title" href="./visit/index.html"><h2>Visit</h2></a>
-				      	<p id="gridINFO">Northampton County Historical and Genealogical Society welcomes visitors of all ages. The Sigal Museum has over 30,000 square feet of permanent and special exhibits, in addition to the Societyʼs three historic house sites.
+				      	<p id="gridINFO">Northampton County Historical and Genealogical Society welcomes visitors of all ages to the Sigal Museum and three historic house sites.
 				      	</p>
 				      </div>
 				      <div class="column">
@@ -174,7 +184,7 @@
 				      <div class="column">
 				      	<a href="./events/"><img id="square" src="./assets/homeIMG-select1.jpg"></a>
 				      	<a id="title" href="./events/"><h2>Events</h2></a>
-				      	<p id="gridINFO">The Sigal museum hosts and participates in various events, including citywide happenings, all throughout the year. See our Events page for details.
+				      	<p id="gridINFO">The Sigal museum hosts and participates in various events, including citywide happenings, all throughout the year.
 				      	</p>
 				      </div>
 			    </div>
@@ -250,9 +260,7 @@ var image = [
 	'./assets/slider-desktop-8.jpg',
 	'./assets/slider-desktop-9.jpg',
 	'./assets/slider-desktop-10.jpg',
-	'./assets/slider-desktop-12.jpg',
 	'./assets/slider-desktop-13.jpg',
-	'./assets/1752-Dinner-slider.jpg',
 	];
 
 	var changePhoto = function() {
