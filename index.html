@@ -158,7 +158,7 @@
 		
 	<div id="center">
 			<div class="slide-container">
-				<image class="slideIMG" src=""></image>
+				<img class="slideIMG" src="./assets/slider-desktop-3.jpg" name="canvas"></img>
 			</div>
 				<div class="intro">
 					The Sigal Museum is Northampton County, Pennsylvania's leading institution of local history, and home to significant collections of pre-European settlement artifacts, decorative arts and textiles, farming implements and colonial furniture. The museum opened in the summer of 2010, offering its visitors interactive exhibits, self-guided and docent-led tours, special children's programs, and a lecture series on local and American history.
@@ -172,7 +172,7 @@
 			</div>
 
 			<div class=fill>
-    			<image class="mobile-IMG" src="./assets/mobile-1.jpg"></image>
+    			<image class="mobile-IMG" src="./assets/slider-mobile-3.jpg" name="canvas2"></image>
 			</div>
 
 			<h1 id="title-center">American history made in Northampton County</h1>
@@ -259,49 +259,107 @@ $( ".mobileButton" ).click(function(){
 	 });
 
 
-var image = [
+var imagesArray = [
 	'./assets/slider-desktop-1.jpg',
-	'./assets/slider-desktop-2.jpg',
 	'./assets/slider-desktop-3.jpg',
 	'./assets/slider-desktop-4.jpg',
 	'./assets/slider-desktop-5.jpg',
-	'./assets/slider-desktop-6.jpg',
 	'./assets/slider-desktop-7.jpg',
 	'./assets/slider-desktop-8.jpg',
 	'./assets/slider-desktop-9.jpg',
 	'./assets/slider-desktop-10.jpg',
 	'./assets/slider-desktop-13.jpg',
+	'./assets/slider-desktop-14.png',
+	'./assets/slider-desktop-15.png',
+	'./assets/slider-desktop-16.png',
+	'./assets/slider-desktop-17.png',
+	'./assets/slider-desktop-18.png',
+	'./assets/slider-desktop-19.png',
+	'./assets/slider-desktop-20.png',
 	];
 
-	var changePhoto = function() {
-		var url = image[Math.floor(Math.random() * image.length)];
-		$('.slideIMG').attr('src',url);
-		console.log("change photo");
-	}
 
-	changePhoto();
-	window.setInterval(changePhoto, 6000);
+var usedImages = {};
+var usedImagesCount = 1;
 
-var image2 = [
+function displayImage(){
+
+    var num = Math.floor(Math.random() * (imagesArray.length));
+    if (!usedImages[num]){
+        document.canvas.src = imagesArray[num];
+        usedImages[num] = true;
+        usedImagesCount++;
+        if (usedImagesCount === imagesArray.length){
+            usedImagesCount = 1;
+            usedImages = {};
+        }
+    } else {
+        displayImage();
+    }
+}
+
+		displayImage();
+        window.setInterval(displayImage, 6000);
+
+	// var changePhoto = function() {
+	// 	var url = images[Math.floor(Math.random() * images.length)];
+	// 	$('.slideIMG').attr('src',url);
+
+	// }
+
+	// changePhoto();
+	// window.setInterval(changePhoto, 6000);
+
+
+var images2Array = [
 	'./assets/slider-mobile-1.jpg',
-	'./assets/slider-mobile-2.jpg',
-	'./assets/slider-mobile-3.jpg',
 	'./assets/slider-mobile-4.jpg',
 	'./assets/slider-mobile-5.jpg',
 	'./assets/slider-mobile-6.jpg',
 	'./assets/slider-mobile-7.jpg',
 	'./assets/slider-mobile-8.jpg',
 	'./assets/slider-mobile-9.jpg',
+	'./assets/slider-mobile-10.png',
+	'./assets/slider-mobile-11.png',
+	'./assets/slider-mobile-12.png',
+	'./assets/slider-mobile-13.png',
+	'./assets/slider-mobile-14.png',
+	'./assets/slider-mobile-15.png',
+	'./assets/slider-mobile-16.png',
 	];
 
-	var changePhoto2 = function() {
-		var url = image2[Math.floor(Math.random() * image2.length)];
-		$('.mobile-IMG').attr('src',url);
-		console.log("change photo");
-	}
+	var usedImages = {};
+	var usedImagesCount = 1;
 
-	changePhoto2();
-	window.setInterval(changePhoto2, 4000);
+function displayImage2(){
+
+    var num = Math.floor(Math.random() * (images2Array.length));
+    if (!usedImages[num]){
+        document.canvas2.src = images2Array[num];
+        usedImages[num] = true;
+        usedImagesCount++;
+        if (usedImagesCount === images2Array.length){
+            usedImagesCount = 1;
+            usedImages = {};
+        }
+    } else {
+        displayImage2();
+    }
+}
+
+		displayImage2();
+        window.setInterval(displayImage2, 4000);
+
+
+
+	// var changePhoto2 = function() {
+	// 	var url = image2[Math.floor(Math.random() * image2.length)];
+	// 	$('.mobile-IMG').attr('src',url);
+	// 	console.log("change photo");
+	// }
+
+	// changePhoto2();
+	// window.setInterval(changePhoto2, 4000);
 
 </script>
 
